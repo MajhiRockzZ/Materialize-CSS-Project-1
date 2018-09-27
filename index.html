@@ -49,7 +49,7 @@
         <img src="img/resort1.jpg" alt="">
         <div class="caption center-align">
           <h2>Take Your Dream Vacation</h2>
-          <h5 class="light grey-text text-lignten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatum veniam maiores provident laudantium quam!</h5>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatum veniam maiores provident laudantium quam!</h5>
           <a href="#" class="btn btn-large">Learn More</a>
         </div>
       </li>
@@ -57,7 +57,7 @@
           <img src="img/resort2.jpg" alt="">
           <div class="caption left-align">
             <h2>We Work With All Budgets</h2>
-            <h5 class="light grey-text text-lignten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatum veniam maiores provident laudantium quam!</h5>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatum veniam maiores provident laudantium quam!</h5>
             <a href="#" class="btn btn-large">Learn More</a>
           </div>
         </li>
@@ -65,7 +65,7 @@
             <img src="img/resort3.jpg" alt="">
             <div class="caption right-align">
               <h2>Group & Individual Getaways</h2>
-              <h5 class="light grey-text text-lignten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatum veniam maiores provident laudantium quam!</h5>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatum veniam maiores provident laudantium quam!</h5>
               <a href="#" class="btn btn-large">Learn More</a>
             </div>
           </li>
@@ -77,7 +77,16 @@
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
     $(document).ready(function () {
+      // Init Side Nav
       $('.button-collapse').sideNav();
+
+      // Init Slider
+      $('.slider').slider({
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 6000
+      });
       
     });
   </script>
